@@ -12,7 +12,7 @@ a{
     padding: 0px 300px 150px 300px;  
     background-color: #1f2937;
 }
-.header, .content{
+.header, .content, .header-2{
     display: flex;
 }
 .header{
@@ -51,6 +51,7 @@ a{
 img{
     width: 500px;
     height: 250px; 
+    border-radius: 6px;
 }
 .title{
     font-size: 48px;
@@ -60,4 +61,31 @@ img{
 .text{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.container-2{
+    display: flex;
+    padding: 0px 80px 80px 80px; 
+    justify-content: center;
+    gap: 66px; 
+}
+
+.illustration-images, .text-2{
+    width: 150px; 
+    height: 150px; 
+}
+.illustration-images{
+    border-radius: 6px;
+}
+.text-2{ 
+    color:#1f2937;
+    text-align: center;
+}
+
+.header-2{
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color:#1f2937;
+    margin: 40px;
 }
