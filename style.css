@@ -3,9 +3,13 @@ body{
     display: flex;
     flex-direction: column;
 }
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
 .container{
-    border: solid red; 
-    padding: 0px 300px 200px 300px;  
+    padding: 0px 300px 150px 300px;  
     background-color: #1f2937;
 }
 .header, .content{
@@ -34,7 +38,7 @@ body{
 .content{
     align-items: center;
     padding-top: 100px; 
-    gap: 30px; 
+    gap: 300px; 
 }
 .right-links{
     display: flex;
@@ -43,10 +47,9 @@ body{
 .sign-up-page{
     width: 500px;
     height: 250px; 
-    border: solid red; 
 }
 img{
-    width: 600px;
+    width: 500px;
     height: 250px; 
 }
 .title{
