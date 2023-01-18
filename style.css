@@ -90,3 +90,25 @@ img{
     color:#1f2937;
     margin: 40px;
 }
+
+.quote-container{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 140px; 
+}
+
+.quote{
+    font-size: 36px;
+    color:#1f2937;
+    width: 900px;
+}
+
+.quote-name{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px; 
+    font-size: 18px;
+    font-weight: 900;
+}
